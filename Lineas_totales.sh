@@ -4,6 +4,6 @@
 for file in *
 do
     lineas=$(wc -l $file | cut -f1 -d' ')
-    sed -i '1i ;'
-    sed -i "1i $lineas"
+    sed -i '1i ;' $file 
+    sed -i "1i $lineas" $file 
 done
