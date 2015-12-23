@@ -1,0 +1,38 @@
+Antes del recorte:
+Dotted 16th ,0
+Dotted Eighth ,1
+/*Dotted Breve ,2*/
+Dotted Whole ,3
+/*Breve ,4*/
+Eighth ,5
+Quarter ,6
+Eighth Triplet (1/3 QL) ,7
+32nd Triplet (1/12 QL) ,8
+Whole ,9
+Quarter Triplet (2/3 QL) ,10
+16th Triplet (1/6 QL) ,11
+16th ,12
+Dotted Half ,13
+/*Whole Triplet (2 2/3 QL) ,14*/
+Dotted Quarter ,15
+Half ,16
+32nd ,17
+Other ,18
+
+Después del recorte:
+Dotted 16th ,0
+Dotted Eighth ,1
+Dotted Whole ,2
+Eighth ,3
+Quarter ,4
+Eighth Triplet (1/3 QL) ,5
+32nd Triplet (1/12 QL) ,6
+Whole ,7
+Quarter Triplet (2/3 QL) ,8
+16th Triplet (1/6 QL) ,9
+16th ,10
+Dotted Half ,11
+Dotted Quarter ,12
+Half ,13
+32nd ,14
+Other ,15
