@@ -3,6 +3,8 @@
 ;;;de la misma forma, va a ser necesario hacer una función distinta para cada
 ;;;tipo de rasgo.
 
+;(load "~/Documentos/Maestría/5to_Semestre/Tesis/Caracterizador de piezas/Caracterizador_nuevo.lisp")
+;(load "~/Documentos/Maestría/5to_Semestre/Tesis/Caracterizador de piezas/Funciones_varias.lisp")
 (load "Caracterizador_nuevo.lisp")
 (load "Funciones_varias.lisp")
 
@@ -95,3 +97,6 @@
                          (suma_meta_arreglos octavas)
                          (procesa_ambito ambito)))
     salida))
+
+;;;Esto es para ejecutar el script 
+(format t "~S~%" (crea_patron_pieza (nth 1 *posix-argv*)))
