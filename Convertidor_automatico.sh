@@ -9,7 +9,6 @@
 for directorio in $1/*/
 do
     echo $directorio
-    #sbcl --script "~/Documentos/Maestría/5to_Semestre/Tesis/Caracterizador de piezas/De_frases_a_piezas.lisp" "$directorio"
     sbcl --script "De_frases_a_piezas.lisp" "$directorio" >> "$1"/Patrones_piezas.txt
 done
 
