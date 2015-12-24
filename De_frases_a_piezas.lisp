@@ -3,6 +3,9 @@
 ;;;de la misma forma, va a ser necesario hacer una función distinta para cada
 ;;;tipo de rasgo.
 
+(load "Caracterizador_nuevo.lisp")
+(load "Funciones_varias.lisp")
+
 (defun procesa_armadura (arreglo)
   ;Procesa el archivo de 'Armadura_nuevo.txt'. En este caso sólo es necesario
   ;tomar el valor del primer objeto del arreglo.
@@ -75,15 +78,15 @@
 
 ;Ahora que tenemos las funciones para procesar los patrones, creamos la función
 ;que une lo anterior para crear el nuevo patrón.
-(defun crea_patron_pieza nil
+(defun crea_patron_pieza (ruta)
   ;Crea el patrón por pieza. No recibe argumentos por que trabajará con todos los
   ;archivos de la carpeta actual
-  (let ((armadura (read-file "Armadura_nuevo.txt"))
-        (tonos (read-file "Pitch_transpuesto.txt"))
-        (num_notas (read-file "Repeticiones_Num_Notas.txt"))
-        (relaciones (read-file "Relaciones_nuevo.txt"))
-        (octavas (read-file "Octavas_recortado.txt"))
-        (ambito (read-file "Ambito_recortado.txt"))
+  (let ((armadura (read-file (concatenate 'string ruta "Armadura_nuevo.txt")))
+        (tonos (read-file (concatenate 'string ruta "Pitch_transpuesto.txt")))
+        (num_notas (read-file (concatenate 'string ruta "Repeticiones_Num_Notas.txt")))
+        (relaciones (read-file (concatenate 'string ruta "Relaciones_nuevo.txt")))
+        (octavas (read-file (concatenate 'string ruta "Octavas_recortado.txt")))
+        (ambito (read-file (concatenate 'string ruta "Ambito_recortado.txt")))
         (salida))
     (setq salida (append (procesa_armadura armadura) 
                          (suma_meta_arreglos tonos) 
