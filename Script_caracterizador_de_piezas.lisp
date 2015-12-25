@@ -8,25 +8,29 @@
 (defvar *p_mozart* (read-file "Patrones_por_pieza/Patrones_piezas_mozart.txt"))
 (defvar *p_muzio* (read-file "Patrones_por_pieza/Patrones_piezas_muzio.txt"))
 
-(setq *supervision* (vector *p_bach* *p_mozart* *p_muzio* *p_beethoven* *p_debussy* *p_joplin*))
+(setq *supervision* (list *p_bach* *p_mozart* *p_muzio* *p_beethoven* *p_debussy* *p_joplin*))
 
 ;(defvar mask-file (second *posix-argv*))
 ;(defvar alpha (read-from-string (third *posix-argv*)))
 ;(defvar beta (read-from-string (fourth *posix-argv*)))
 ;(defvar nombre_archivo_salida (concatenate 'string (third *posix-argv*) "_" (fourth *posix-argv*) "-" (second *posix-argv*)".txt"))
 
-;(caracteriza_nuevo 
-  ;*supervision* 
-  ;(concatenate 'string "~/Documentos/Maestría/4to_Semestre/Máscaras/Mask_new/" mask-file) 
-  ;alpha beta beta alpha 500 
-  ;(concatenate 'string "~/Documentos/Maestría/4to_Semestre/Resultados/Nuevos_experimentos/Sin_intervalos/" nombre_archivo_salida) )
+(defvar alpha (read-from-string (second *posix-argv*)))
+(defvar beta (read-from-string (third *posix-argv*)))
+(defvar nombre_archivo_salida (concatenate 'string (second *posix-argv*) "-" (third *posix-argv*)".txt"))
 
-;;;Esta sección está "hardcodeada" por que es para pruebas
 (caracteriza_nuevo 
   *supervision* 
   (concatenate 'string "Archivos_mascaras/" "40_3.lisp") 
-  100 10 10 100 500 
-  (concatenate 'string "Resultados/" "Resultados_de_prueba.txt"))
+  alpha beta beta alpha 500 
+  (concatenate 'string "Resultados/" nombre_archivo_salida) )
+
+;;;;Esta sección está "hardcodeada" por que es para pruebas
+;(caracteriza_nuevo 
+  ;*supervision* 
+  ;(concatenate 'string "Archivos_mascaras/" "40_3.lisp") 
+  ;100 10 10 100 500 
+  ;(concatenate 'string "Resultados/" "Resultados_de_prueba.txt"))
 
 ;;;Para este archivo, los rasgos están indicados de la siguiente forma:
 ;0 - 1 .- Armadura y ritmo
