@@ -8,5 +8,5 @@ do
     beta=$(echo $linea | cut -f2 -d' ')
     echo "================================================================================"
     echo "alfa: $alfa y beta: $beta"
-    sbcl --script "Script_caracterizador.lisp" $alfa $beta
+    sbcl --script "Script_caracterizador_de_piezas.lisp" $alfa $beta
 done < "Archivos_mascaras/Pares_de_numeros.txt"
