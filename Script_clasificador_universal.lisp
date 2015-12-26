@@ -1,5 +1,7 @@
 (defvar nombre_archivo (nth 1 *posix-argv*))
-;(load "Clasificador.lisp")
+(load "Caracterizador_nuevo.lisp")
+(load "Script_caracterizador_de_piezas.lisp")
+(load "Clasificador.lisp")
 (defvar archivo_caracteristicas (concatenate 'string "Resultados_de_prueba/" nombre_archivo))
 
 (cond
