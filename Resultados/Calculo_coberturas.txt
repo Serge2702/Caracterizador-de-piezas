@@ -1,949 +1,311 @@
 Resultados/100-21.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/100-24.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 19 patrones de 48. Es 39.583332%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/100-42.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 19 patrones de 48. Es 39.583332%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/100-48.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 19 patrones de 48. Es 39.583332%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
-Resultados/110-0.txt
 
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 17 patrones de 18. Es 94.44444%
-
-Cubre 9 patrones de 9. Es 100.0%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 21 patrones de 42. Es 50.0%
-Resultados/110-21.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 17 patrones de 18. Es 94.44444%
-
-Cubre 9 patrones de 9. Es 100.0%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 28 patrones de 42. Es 66.666664%
 Resultados/110-24.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/110-42.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/110-48.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/120-24.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/120-42.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/120-48.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/120-56.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
-Resultados/130-0.txt
 
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 15 patrones de 18. Es 83.333336%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 18 patrones de 42. Es 42.857143%
-Resultados/130-21.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 15 patrones de 18. Es 83.333336%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 24 patrones de 42. Es 57.142857%
 Resultados/130-24.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/130-42.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/130-48.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/130-56.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/130-62.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
-Resultados/140-0.txt
 
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 15 patrones de 18. Es 83.333336%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 18 patrones de 42. Es 42.857143%
-Resultados/140-21.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 15 patrones de 18. Es 83.333336%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 24 patrones de 42. Es 57.142857%
 Resultados/140-24.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/140-42.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/140-48.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/140-56.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/140-62.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
+
 Resultados/140-67.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 7 patrones de 48. Es 14.583333%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 3 patrones de 9. Es 33.333332%
-
 Cubre 8 patrones de 10. Es 80.0%
-
 Cubre 24 patrones de 42. Es 57.142857%
-Resultados/160-0.txt
 
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 15 patrones de 18. Es 83.333336%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 13 patrones de 42. Es 30.952381%
-Resultados/160-21.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 15 patrones de 18. Es 83.333336%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 13 patrones de 42. Es 30.952381%
-Resultados/160-24.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 17 patrones de 18. Es 94.44444%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 13 patrones de 42. Es 30.952381%
-Resultados/160-42.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 17 patrones de 18. Es 94.44444%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 13 patrones de 42. Es 30.952381%
-Resultados/160-48.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 17 patrones de 18. Es 94.44444%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 13 patrones de 42. Es 30.952381%
-Resultados/160-56.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 17 patrones de 18. Es 94.44444%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 13 patrones de 42. Es 30.952381%
-Resultados/160-62.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 17 patrones de 18. Es 94.44444%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 13 patrones de 42. Es 30.952381%
-Resultados/160-67.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 17 patrones de 18. Es 94.44444%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 13 patrones de 42. Es 30.952381%
-Resultados/160-71.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 17 patrones de 18. Es 94.44444%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 13 patrones de 42. Es 30.952381%
-Resultados/180-48.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 8 patrones de 42. Es 19.047619%
-Resultados/190-0.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 8 patrones de 42. Es 19.047619%
-Resultados/190-21.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 8 patrones de 42. Es 19.047619%
-Resultados/190-42.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 8 patrones de 42. Es 19.047619%
-Resultados/190-56.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 8 patrones de 42. Es 19.047619%
-Resultados/190-62.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 8 patrones de 42. Es 19.047619%
-Resultados/190-67.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 8 patrones de 42. Es 19.047619%
-Resultados/190-71.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 8 patrones de 42. Es 19.047619%
-Resultados/190-83.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 8 patrones de 42. Es 19.047619%
-Resultados/200-0.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 0 patrones de 42. Es 0.0%
-Resultados/200-100.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 0 patrones de 42. Es 0.0%
-Resultados/200-21.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 0 patrones de 42. Es 0.0%
-Resultados/200-42.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 0 patrones de 42. Es 0.0%
-Resultados/200-48.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 0 patrones de 42. Es 0.0%
-Resultados/200-56.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 0 patrones de 42. Es 0.0%
-Resultados/200-62.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 0 patrones de 42. Es 0.0%
-Resultados/200-67.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 0 patrones de 42. Es 0.0%
-Resultados/200-71.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 0 patrones de 42. Es 0.0%
-Resultados/200-83.txt
-
-Cubre 15 patrones de 15. Es 100.0%
-
-Cubre 0 patrones de 48. Es 0.0%
-
-Cubre 12 patrones de 18. Es 66.666664%
-
-Cubre 3 patrones de 9. Es 33.333332%
-
-Cubre 8 patrones de 10. Es 80.0%
-
-Cubre 0 patrones de 42. Es 0.0%
 Resultados/50-0.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 21 patrones de 42. Es 50.0%
+
 Resultados/50-21.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/50-24.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 19 patrones de 48. Es 39.583332%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/60-0.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 21 patrones de 42. Es 50.0%
+
 Resultados/60-21.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/60-24.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 19 patrones de 48. Es 39.583332%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/70-0.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 21 patrones de 42. Es 50.0%
+
 Resultados/70-21.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/70-24.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 19 patrones de 48. Es 39.583332%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/80-0.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 21 patrones de 42. Es 50.0%
+
 Resultados/80-21.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/80-24.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 19 patrones de 48. Es 39.583332%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/90-0.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 21 patrones de 42. Es 50.0%
+
 Resultados/90-21.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/90-24.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 19 patrones de 48. Es 39.583332%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/90-42.txt
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 19 patrones de 48. Es 39.583332%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 28 patrones de 42. Es 66.666664%
+
 Resultados/Resultados_de_prueba.lisp
-
 Cubre 15 patrones de 15. Es 100.0%
-
 Cubre 12 patrones de 48. Es 25.0%
-
 Cubre 17 patrones de 18. Es 94.44444%
-
 Cubre 9 patrones de 9. Es 100.0%
-
 Cubre 10 patrones de 10. Es 100.0%
-
 Cubre 21 patrones de 42. Es 50.0%
