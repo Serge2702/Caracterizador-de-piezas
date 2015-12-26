@@ -15,22 +15,25 @@
 ;(defvar beta (read-from-string (fourth *posix-argv*)))
 ;(defvar nombre_archivo_salida (concatenate 'string (third *posix-argv*) "_" (fourth *posix-argv*) "-" (second *posix-argv*)".txt"))
 
-(defvar alpha (read-from-string (second *posix-argv*)))
-(defvar beta (read-from-string (third *posix-argv*)))
-(defvar nombre_archivo_salida (concatenate 'string (second *posix-argv*) "-" (third *posix-argv*)".txt"))
+;;;;Esta es la sección que se usó para la caracterización empleando muchos pares;{{{
+;;;;de valores para alfa y beta
+;(defvar alpha (read-from-string (second *posix-argv*)))
+;(defvar beta (read-from-string (third *posix-argv*)))
+;(defvar nombre_archivo_salida (concatenate 'string (second *posix-argv*) "-" (third *posix-argv*)".txt"))
 
-(caracteriza_nuevo 
-  *supervision* 
-  (concatenate 'string "Archivos_mascaras/" "40_3.lisp") 
-  alpha beta beta alpha 500 
-  (concatenate 'string "Resultados/" nombre_archivo_salida) )
+;(caracteriza_nuevo 
+  ;*supervision* 
+  ;(concatenate 'string "Archivos_mascaras/" "40_3.lisp") 
+  ;alpha beta beta alpha 500 
+  ;(concatenate 'string "Resultados/" nombre_archivo_salida) )
+;;;;;}}}
 
-;;;;Esta sección está "hardcodeada" por que es para pruebas
+;;;;Esta sección está "hardcodeada" por que es para pruebas;{{{
 ;(caracteriza_nuevo 
   ;*supervision* 
   ;(concatenate 'string "Archivos_mascaras/" "40_3.lisp") 
   ;100 10 10 100 500 
-  ;(concatenate 'string "Resultados/" "Resultados_de_prueba.txt"))
+  ;(concatenate 'string "Resultados/" "Resultados_de_prueba.txt"));}}}
 
 ;;;Para este archivo, los rasgos están indicados de la siguiente forma:
 ;0 - 1 .- Armadura y ritmo
