@@ -1,3 +1,5 @@
+(load "Caracterizador_nuevo.lisp")
+(load "Script_caracterizador_de_piezas.lisp")
 ;En este archivo se incluyen las funciones para determinar la cobertura de las
 ;características encontradas.
 
@@ -93,8 +95,7 @@
                   (length (nth indice grupos)) 
                   (/ (length (aref conjuntos indice)) (length (nth indice grupos)) 0.01)))))
 
-
-;(defun separa_caracteristicas (archivo tipo)
-;;Separa las características del tipo indicado en un archivo nuevo.
-  
-  ;)
+;;;Estas líneas es para el script de coberturas. Será necesario comentarlas
+;;;cuando ya no se usen.
+(defvar *archivo_propiedades* (nth 1 *posix-argv*))
+(cobertura_positivas *supervision* *archivo_propiedades*)
