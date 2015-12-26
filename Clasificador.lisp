@@ -3,96 +3,8 @@
 ;;;clasificación de los patrones usando las características obtenidas
 ;;;anteriormente
 (load "Caracterizador_nuevo.lisp")
-(load "Script_caracterizador_template.lisp")
-;(load "Script_caracterizador_sin_intervalos.lisp")
+(load "Script_caracterizador_de_piezas.lisp")
 (load "Cobertura.lisp")
-;Ok, cada compositor tiene las siguientes características, tomando en cuenta
-;únicamente las que tienen valores de alfa y beta de 10 y 100
-;Negativas:
-;(0 -):    210  Bach
-;(5 -):    476  Joplin
-;(0 +):    431594
-;(2 +):    18159
-;(3 +):    1972
-;(4 +):    931
-;(5 +):    44000
-
-;Tomando en cuenta todas las características tenemos:
-;(0 -):    210
-;(5 -):    733
-;(0 +):    625793
-;(2 +):    42321
-;(3 +):    2461
-;(4 +):    1375
-;(5 +):    65736
-
-;(defparameter cn0  210)
-;(defparameter cn5  733)
-;(defparameter cp0  625793)
-;(defparameter cp2  42321)
-;(defparameter cp3  2461)
-;(defparameter cp4  1375)
-;(defparameter cp5  65736)
-
-;Original
-;(defparameter *conteo_caracteristicas* (list (list cp0 cn0) (list 0 0) (list cp2 0) (list cp3 0) (list cp4 0) (list cp5 cn5)))
-;Con intervalos:
-;100_36
-;(defparameter *conteo_caracteristicas* (list (list 317235 266)(list 104 266)(list 96912 15)(list 4928 16)(list 4729 29)(list 78038 1891)))
-;;90_36
-;(defparameter *conteo_caracteristicas* (list (list 420433 458)(list 248 334)(list 148727 22)(list 10876 82)(list 8341 48)(list 119941 2924)))
-;;80_24
-;(defparameter *conteo_caracteristicas* (list (list 430769 561)(list 233 148)(list 143620 2)(list 13214 99)(list 9548 46)(list 144778 3038)))
-;;70_24
-;(defparameter *conteo_caracteristicas* (list (list 846594 1029)(list 586 243)(list 303305 31)(list 35784 239)(list 19929 146)(list 239162 5343)))
-
-;;Sin intervalos
-;;100_36
-;(defparameter *conteo_caracteristicas* (list (list cp0 cn0) (list 0 0) (list cp2 0) (list cp3 0) (list cp4 0) (list cp5 cn5)))
-;;90_36
-;(defparameter *conteo_caracteristicas* (list (list cp0 cn0) (list 0 0) (list cp2 0) (list cp3 0) (list cp4 0) (list cp5 cn5)))
-;;80_24
-;(defparameter *conteo_caracteristicas* (list (list cp0 cn0) (list 0 0) (list cp2 0) (list cp3 0) (list cp4 0) (list cp5 cn5)))
-;;70_24
-;(defparameter *conteo_caracteristicas* (list (list cp0 cn0) (list 0 0) (list cp2 0) (list cp3 0) (list cp4 0) (list cp5 cn5)))
-
-;(defun caracteristicas_del_patron (archivo patron)
-  ;;Esta función compara un patrón con el archivo de características. 
-  ;;TODO: Ver que información regresará. ¿La suma total de los conteos? ¿Lista de
-  ;;las pertenencias?
-  ;(let ((num_patrones)(lista_valores) (renglon) (mascara)(salida nil))
-    ;(with-open-file (stream archivo :direction :input)
-      ;(setq num_patrones (read stream nil nil))
-      ;(read-line stream nil nil)                   ;Para saltarse la línea de comentarios
-      ;(loop for linea_archivo from 0 below num_patrones do
-            ;(setq renglon (read-from-string (read-line stream nil nil)))
-            ;(setq mascara (first renglon)) 
-            ;(setq lista_valores (rest renglon))
-            ;(loop for valor in lista_valores do
-                  ;(cond
-                    ;((comparacion_con_mascara patron mascara (first valor))
-                     ;(setq salida (append salida (list (second valor)))))
-                    ;(t )))))
-    ;salida))
-
-;(defun caracteristicas_del_patron (archivo patron)
-  ;;Esta función compara un patrón con el archivo de características. 
-  ;;TODO: Ver que información regresará. ¿La suma total de los conteos? ¿Lista de
-  ;;las pertenencias?
-  ;(let ((num_patrones)(lista_valores) (renglon) (mascara)(salida nil))
-    ;(with-open-file (stream archivo :direction :input)
-      ;(setq num_patrones (read stream nil nil))
-      ;(read-line stream nil nil)                   ;Para saltarse la línea de comentarios
-      ;(loop for linea_archivo from 0 below num_patrones do
-            ;(setq renglon (read-from-string (read-line stream nil nil)))
-            ;(setq mascara (first renglon)) 
-            ;(setq lista_valores (rest renglon))
-            ;(loop for valor in lista_valores do
-                  ;(cond
-                    ;((comparacion_con_mascara patron mascara (first valor))
-                     ;(setq salida (append salida (list (second valor)))))
-                    ;(t )))))
-    ;salida))
 
 (defun caracteristicas_del_patron (archivo patron)
   ;Esta función compara un patrón con el archivo de características. 
@@ -221,20 +133,6 @@
                               ((member 0 (coerce repeticiones 'list)) (format arch_neg_hard "~S~%" (list mascara (list valores repeticiones tipo))))
                               (t (format arch_neg "~S~%" (list mascara (list valores repeticiones tipo))))))
                            (t nil)))))))))))
-
-;(defun conteo_caracteristicas (archivo)
-  ;;Realiza un conteo para verificar cuantas características tiene cada compositor.
-  ;(let ((salida)(renglon)(repeticiones)(tipo)(num_patrones))
-    ;(with-open-file (stream archivo :direction :input)
-      ;(setq num_patrones (read stream nil nil))
-      ;(read-line stream nil nil)                   ;Para saltarse la línea de comentarios
-      ;(loop for linea_archivo from 0 below num_patrones do
-            ;(setq renglon (read-from-string (read-line stream nil nil)))
-            ;(setq repeticiones (second (second renglon)))
-            ;(setq tipo (determina_tipo_caracterizacion repeticiones *ap* *bp* *an* *bn* *g*))
-            ;))   
-    ;)
-  ;)
 
 (defun conteo_caracteristicas_por_compositor (archivo)
   ;Crea una tabla hash con las repeticiones encontradas en los elementos de una
@@ -379,38 +277,6 @@
 ;Transforma una tabla a un arreglo.
   (loop for llave being the hash-keys of tabla collect
    (list llave (gethash llave tabla))))
-
-;(defun caracteristicas_pieza (ruta archivo_caracteristicas)
-  ;;Carga los archivos de la pieza, y regesa la lista de las características que
-  ;;tiene la pieza.
-  ;(let ((pieza) (pert_individual)(max_individual)(maximos)(pertenencias (make-array 0 :adjustable t :fill-pointer 0)))
-    ;(setq pieza (procesa_pieza (cargar_pieza ruta)))
-    ;(loop for patron in pieza do
-          ;(setq pert_individual (pertenencias_del_patron archivo_caracteristicas patron))
-          ;(setq max_individual (indice_max pert_individual))
-          ;(append_to_list max_individual maximos)
-          ;(format t "~S: ~S~%" pert_individual max_individual)
-          ;(vector-push-extend pert_individual pertenencias))
-    ;(imprime_tabla (tabla_repeticiones_general maximos))
-    ;(sumatoria_+p pertenencias)))
-
-;(defun caracteristicas_pieza (ruta archivo_caracteristicas)
-  ;;Carga los archivos de la pieza, y regesa la lista de las características que
-  ;;tiene la pieza.
-  ;(let ((pieza) (pert_individual)(max_individual)(maximos)(pertenencias (make-array 0 :adjustable t :fill-pointer 0))(num_patrones)(contador 1))
-    ;(setq pieza (procesa_pieza (cargar_pieza ruta)))
-    ;(setq num_patrones (length pieza))
-    ;(print ruta)
-    ;(format t "Son ~S patrones.~%" num_patrones)
-    ;(loop for patron in pieza do
-          ;(setq pert_individual (pertenencias_del_patron archivo_caracteristicas patron))
-          ;(setq max_individual (indice_max pert_individual))
-          ;(append_to_list max_individual maximos)
-          ;(format t "~S - ~S: ~S~%" contador pert_individual max_individual)
-          ;(vector-push-extend pert_individual pertenencias)
-          ;(setq contador (+ 1 contador)))
-    ;(imprime_tabla (tabla_repeticiones_general maximos))
-    ;(print (sumatoria_+p pertenencias))))
 
 (defun caracteristicas_pieza (ruta archivo_caracteristicas)
   ;Carga los archivos de la pieza, y regesa la lista de las características que
