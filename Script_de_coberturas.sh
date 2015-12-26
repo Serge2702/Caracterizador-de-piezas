@@ -4,5 +4,5 @@
 for archivo in Resultados/*
 do
     echo "$archivo" >> Resultados/Calculo_coverturas.txt
-    sbcl --script Cobertura.lisp "Resultados/$archivo" >> Resultados/Calculo_coverturas.txt
+    sbcl --script Cobertura.lisp "$archivo" >> Resultados/Calculo_coverturas.txt
 done
