@@ -1,39 +1,133 @@
 (defvar nombre_archivo (nth 1 *posix-argv*))
-(defvar numero_script (nth 2 *posix-argv*))
-(defvar nombre_script (concatenate 'string "script_38_" numero_script))
-(load "Clasificador.lisp")
+;(load "Clasificador.lisp")
 (defvar archivo_caracteristicas (concatenate 'string "Resultados_de_prueba/" nombre_archivo))
 
 (cond
-  ((equal nombre_archivo "70-24-all.txt")
-   (defparameter *conteo_caracteristicas* (list (list 846594 1029)(list 586 243)(list 303305 31)(list 35784 239)(list 19929 146)(list 239162 5343))))
-  ((equal nombre_archivo "80-24-all.txt")
-   (defparameter *conteo_caracteristicas* (list (list 430769 561)(list 233 148)(list 143620 2)(list 13214 99)(list 9548 46)(list 144778 3038))))
-  ((equal nombre_archivo "90-36-all.txt")
-   (defparameter *conteo_caracteristicas* (list (list 420433 458)(list 248 334)(list 148727 22)(list 10876 82)(list 8341 48)(list 119941 2924))))
-  ((equal nombre_archivo "100-36-all.txt")
-   (defparameter *conteo_caracteristicas* (list (list 719786 266)(list 110 394)(list 237292 16)(list 5634 16)(list 5284 29)(list 113421 1989))))
-  ((equal nombre_archivo "110-39-all.txt")
-   (defparameter *conteo_caracteristicas* (list (list 259324 184)(list 62 201)(list 71099 27)(list 3343 24)(list 3105 25)(list 57531 1419))))
-  ((equal nombre_archivo "100-36_3.txt")
-   (defparameter *conteo_caracteristicas* (list (list 1957 97)(list 11 4)(list 394 1)(list 460 1)(list 407 12)(list 2095 302))))
-  ((equal nombre_archivo "100-36_3_a_4.txt")
-   (defparameter *conteo_caracteristicas* (list (list 19450 204)(list 41 34)(list 4735 5)(list 1715 6)(list 1626 23)(list 12760 920))))
-  ((equal nombre_archivo "100-36_3_a_5.txt")
-   (defparameter *conteo_caracteristicas* (list (list 98733 256)(list 80 124)(list 27413 11)(list 3485 13)(list 3380 28)(list 39351 1546))))
-  ((equal nombre_archivo "100-36_3_a_8.txt")
-   (defparameter *conteo_caracteristicas* (list (list 1242394 266)(list 110 460)(list 436058 16)(list 5842 16)(list 5399 29)(list 134416 1999))))
-  (t (error "Escribiste mal el nombre...")))
-;Original
-;(defparameter *conteo_caracteristicas* (list (list cp0 cn0) (list 0 0) (list cp2 0) (list cp3 0) (list cp4 0) (list cp5 cn5)))
-;Con intervalos:
-;100_36
-;(defparameter *conteo_caracteristicas* (list (list 317235 266)(list 104 266)(list 96912 15)(list 4928 16)(list 4729 29)(list 78038 1891)))
-;;90_36
-;(defparameter *conteo_caracteristicas* (list (list 420433 458)(list 248 334)(list 148727 22)(list 10876 82)(list 8341 48)(list 119941 2924)))
-;;80_24
-;(defparameter *conteo_caracteristicas* (list (list 430769 561)(list 233 148)(list 143620 2)(list 13214 99)(list 9548 46)(list 144778 3038)))
-;;70_24
-;(defparameter *conteo_caracteristicas* (list (list 846594 1029)(list 586 243)(list 303305 31)(list 35784 239)(list 19929 146)(list 239162 5343)))
+  ((equal nombre_archivo "Resultados/100-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2377 0)(list 4 0)(list 1095 0)(list 88303 0)(list 98526 1)(list 13 1))))
+  ((equal nombre_archivo "Resultados/100-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2383 0)(list 12 0)(list 1133 0)(list 88391 0)(list 98612 1)(list 13 2))))
+  ((equal nombre_archivo "Resultados/100-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2388 0)(list 12 0)(list 1152 0)(list 88409 0)(list 98630 1)(list 15 2))))
+  ((equal nombre_archivo "Resultados/100-48.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2388 0)(list 12 0)(list 1174 0)(list 88420 0)(list 98647 1)(list 15 2))))
+  ((equal nombre_archivo "Resultados/110-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2383 0)(list 7 0)(list 1133 0)(list 88391 0)(list 11 1)(list 13 0))))
+  ((equal nombre_archivo "Resultados/110-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2388 0)(list 7 0)(list 1152 0)(list 88409 0)(list 11 1)(list 15 0))))
+  ((equal nombre_archivo "Resultados/110-48.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2388 0)(list 7 0)(list 1174 0)(list 88420 0)(list 12 1)(list 15 0))))
+  ((equal nombre_archivo "Resultados/120-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2383 0)(list 7 0)(list 155 0)(list 21 0)(list 11 0)(list 8 0))))
+  ((equal nombre_archivo "Resultados/120-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2388 0)(list 7 0)(list 156 0)(list 21 0)(list 11 0)(list 8 0))))
+  ((equal nombre_archivo "Resultados/120-48.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2388 0)(list 7 0)(list 159 0)(list 23 0)(list 12 0)(list 8 0))))
+  ((equal nombre_archivo "Resultados/120-56.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2612 0)(list 11 0)(list 159 0)(list 27 0)(list 13 0)(list 12 0))))
+  ((equal nombre_archivo "Resultados/130-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2383 0)(list 4 0)(list 155 0)(list 21 0)(list 11 0)(list 8 0))))
+  ((equal nombre_archivo "Resultados/130-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2388 0)(list 4 0)(list 156 0)(list 21 0)(list 11 0)(list 8 0))))
+  ((equal nombre_archivo "Resultados/130-48.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2388 0)(list 4 0)(list 159 0)(list 23 0)(list 12 0)(list 8 0))))
+  ((equal nombre_archivo "Resultados/130-56.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2612 0)(list 7 0)(list 159 0)(list 27 0)(list 13 0)(list 12 0))))
+  ((equal nombre_archivo "Resultados/130-62.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2618 0)(list 7 0)(list 160 0)(list 27 0)(list 14 0)(list 12 0))))
+  ((equal nombre_archivo "Resultados/140-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 541 0)(list 4 0)(list 155 0)(list 21 0)(list 11 0)(list 8 0))))
+  ((equal nombre_archivo "Resultados/140-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 542 0)(list 4 0)(list 156 0)(list 21 0)(list 11 0)(list 8 0))))
+  ((equal nombre_archivo "Resultados/140-48.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 542 0)(list 4 0)(list 159 0)(list 23 0)(list 12 0)(list 8 0))))
+  ((equal nombre_archivo "Resultados/140-56.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 619 0)(list 7 0)(list 159 0)(list 27 0)(list 13 0)(list 12 0))))
+  ((equal nombre_archivo "Resultados/140-62.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 622 0)(list 7 0)(list 160 0)(list 27 0)(list 14 0)(list 12 0))))
+  ((equal nombre_archivo "Resultados/140-67.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 622 0)(list 7 0)(list 191 0)(list 30 0)(list 14 0)(list 12 0))))
+  ((equal nombre_archivo "Resultados/50-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 141753 1)(list 116 0)(list 172691 0)(list 88155 1)(list 98423 1)(list 138 1))))
+  ((equal nombre_archivo "Resultados/50-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 142044 1)(list 116 0)(list 173372 0)(list 88303 1)(list 98526 1)(list 172 1))))
+  ((equal nombre_archivo "Resultados/50-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 142158 1)(list 149 0)(list 173775 0)(list 88391 1)(list 98612 1)(list 172 2))))
+  ((equal nombre_archivo "Resultados/60-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 141753 1)(list 116 0)(list 1022 0)(list 88155 0)(list 98423 1)(list 138 1))))
+  ((equal nombre_archivo "Resultados/60-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 142044 1)(list 116 0)(list 1095 0)(list 88303 0)(list 98526 1)(list 172 1))))
+  ((equal nombre_archivo "Resultados/60-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 142158 1)(list 149 0)(list 1133 0)(list 88391 0)(list 98612 1)(list 172 2))))
+  ((equal nombre_archivo "Resultados/70-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2323 1)(list 17 0)(list 1022 0)(list 88155 0)(list 98423 1)(list 138 1))))
+  ((equal nombre_archivo "Resultados/70-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2377 1)(list 17 0)(list 1095 0)(list 88303 0)(list 98526 1)(list 172 1))))
+  ((equal nombre_archivo "Resultados/70-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2383 1)(list 31 0)(list 1133 0)(list 88391 0)(list 98612 1)(list 172 2))))
+  ((equal nombre_archivo "Resultados/80-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2323 1)(list 17 0)(list 1022 0)(list 88155 0)(list 98423 1)(list 26 1))))
+  ((equal nombre_archivo "Resultados/80-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2377 1)(list 17 0)(list 1095 0)(list 88303 0)(list 98526 1)(list 38 1))))
+  ((equal nombre_archivo "Resultados/80-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2383 1)(list 31 0)(list 1133 0)(list 88391 0)(list 98612 1)(list 38 2))))
+  ((equal nombre_archivo "Resultados/90-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2323 1)(list 4 0)(list 1022 0)(list 88155 0)(list 98423 1)(list 26 1))))
+  ((equal nombre_archivo "Resultados/90-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2377 1)(list 4 0)(list 1095 0)(list 88303 0)(list 98526 1)(list 38 1))))
+  ((equal nombre_archivo "Resultados/90-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2383 1)(list 12 0)(list 1133 0)(list 88391 0)(list 98612 1)(list 38 2))))
+  ((equal nombre_archivo "Resultados/90-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2388 1)(list 12 0)(list 1152 0)(list 88409 0)(list 98630 1)(list 41 2))))
+  ((equal nombre_archivo "Resultados/Calculo_coberturas.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Resultados_de_prueba.lisp")
+   (defparameter *conteo_caracteristicas*
+     (list (list 2323 0)(list 4 0)(list 1022 0)(list 88155 0)(list 98423 1)(list 9 1))))
+  (t (print "Escribiste mal el nombre...")))
 
-(load (concatenate 'string "./Scripts_clasificadores/" nombre_script))
+(let ((temporal nil)(contador 0))
+  (loop for grupo in *supervision* do
+        (format t "~%Grupo ~S~%" contador)
+        (loop for pieza across grupo do
+              (setq temporal (pertenencias_del_patron nombre_archivo pieza))
+              (format t "~S - ~S~%" temporal (indice_max temporal)))))
