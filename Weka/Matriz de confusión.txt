@@ -1,0 +1,7 @@
+  a  b  c  d  e  f   <-- classified as
+ 15  0  0  0  0  0 |  a = Bach
+  0 43  1  2  1  1 |  b = Mozart
+  1  5 12  0  0  0 |  c = Muzio
+  0  1  1  3  4  0 |  d = Beethoven
+  0  0  0  0 10  0 |  e = Debussy
+  0  1  0  0  1 40 |  f = Joplin
