@@ -28,12 +28,12 @@
   ;(concatenate 'string "Resultados/" nombre_archivo_salida) )
 ;;;;;}}}
 
-;;;;Esta sección está "hardcodeada" por que es para pruebas;{{{
-;(caracteriza_nuevo 
-  ;*supervision* 
-  ;(concatenate 'string "Archivos_mascaras/" "40_3.lisp") 
-  ;100 10 10 100 500 
-  ;(concatenate 'string "Resultados/" "Resultados_de_prueba.txt"));}}}
+;;;Esta sección está "hardcodeada" por que es para pruebas;{{{
+(caracteriza_nuevo 
+  *supervision* 
+  (concatenate 'string "Archivos_mascaras/" "40_3.lisp") 
+  100 10 10 100 500 
+  (concatenate 'string "Resultados/" "Resultados_de_prueba.txt"));}}}
 
 ;;;Para este archivo, los rasgos están indicados de la siguiente forma:
 ;0 - 1 .- Armadura y ritmo
