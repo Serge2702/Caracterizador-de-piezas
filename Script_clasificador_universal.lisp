@@ -17,6 +17,9 @@
   ((equal nombre_archivo "Resultados/100-48.txt")
    (defparameter *conteo_caracteristicas*
      (list (list 2388 0)(list 12 0)(list 1174 0)(list 88420 0)(list 98647 1)(list 15 2))))
+  ((equal nombre_archivo "Resultados/10-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 141753 3)(list 468238 0)(list 172691 2)(list 88155 2)(list 98423 4)(list 409891 2))))
   ((equal nombre_archivo "Resultados/110-24.txt")
    (defparameter *conteo_caracteristicas*
      (list (list 2383 0)(list 7 0)(list 1133 0)(list 88391 0)(list 11 1)(list 13 0))))
@@ -71,6 +74,9 @@
   ((equal nombre_archivo "Resultados/140-67.txt")
    (defparameter *conteo_caracteristicas*
      (list (list 622 0)(list 7 0)(list 191 0)(list 30 0)(list 14 0)(list 12 0))))
+  ((equal nombre_archivo "Resultados/30-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 141753 2)(list 1219 0)(list 172691 1)(list 88155 2)(list 98423 1)(list 1527 1))))
   ((equal nombre_archivo "Resultados/50-0.txt")
    (defparameter *conteo_caracteristicas*
      (list (list 141753 1)(list 116 0)(list 172691 0)(list 88155 1)(list 98423 1)(list 138 1))))
@@ -120,6 +126,120 @@
    (defparameter *conteo_caracteristicas*
      (list (list 2388 1)(list 12 0)(list 1152 0)(list 88409 0)(list 98630 1)(list 41 2))))
   ((equal nombre_archivo "Resultados/Calculo_coberturas.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_100-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_100-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_100-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_100-48.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_110-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_110-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_110-48.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_120-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_120-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_120-48.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_120-56.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_130-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_130-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_130-48.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_130-56.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_130-62.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_140-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_140-42.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_140-48.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_140-56.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_140-62.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_140-67.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_50-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_50-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_50-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_60-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_60-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_60-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_70-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_70-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_70-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_80-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_80-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_80-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_90-0.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_90-21.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_90-24.txt")
+   (defparameter *conteo_caracteristicas*
+     (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
+  ((equal nombre_archivo "Resultados/Clasificacion_90-42.txt")
    (defparameter *conteo_caracteristicas*
      (list (list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0)(list 0 0))))
   ((equal nombre_archivo "Resultados/Resultados_de_prueba.lisp")
