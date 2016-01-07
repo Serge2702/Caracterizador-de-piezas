@@ -1,13 +1,18 @@
-;(load "Caracterizador_nuevo.lisp")
-;(load "Script_caracterizador_de_piezas.lisp")
+;;;Estas líneas es para el script de coberturas. Será necesario comentarlas
+;;;cuando ya no se usen.
+(load "Caracterizador_nuevo.lisp")
+(load "Script_caracterizador_de_piezas.lisp")
+(defvar *archivo_propiedades* (nth 1 *posix-argv*))
+(defvar *ap* (nth 2 *posix-argv*))
+(defvar *bp* (nth 3 *posix-argv*))
+(defvar *bn* (nth 2 *posix-argv*))
+(defvar *an* (nth 3 *posix-argv*))
+;;;
+
 ;En este archivo se incluyen las funciones para determinar la cobertura de las
 ;características encontradas.
 
-;Empecemos con los parámetros:
-(defparameter *ap* 100)
-(defparameter *bp* 36)
-(defparameter *an* 36)
-(defparameter *bn* 100)
+;;Empecemos con los parámetros:
 (defparameter *g* 100)
 
 (defun comparacion_con_mascara (patron mascara segmento)
@@ -95,7 +100,4 @@
                   (length (nth indice grupos)) 
                   (/ (length (aref conjuntos indice)) (length (nth indice grupos)) 0.01)))))
 
-;;;;Estas líneas es para el script de coberturas. Será necesario comentarlas
-;;;;cuando ya no se usen.
-;(defvar *archivo_propiedades* (nth 1 *posix-argv*))
-;(cobertura_positivas *supervision* *archivo_propiedades*)
+(cobertura_positivas *supervision* *archivo_propiedades*)
