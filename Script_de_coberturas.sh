@@ -8,5 +8,5 @@ do
     beta=$(echo $numeros | cut -d'-' -f2)
     echo "$archivo: $alfa - $beta"
     echo "$archivo" >> Resultados/Calculo_coverturas.txt
-    sbcl --script Cobertura.lisp "$archivo" $alfa $beta >> Resultados/Calculo_coverturas.txt
+    sbcl --script Cobertura.lisp "$archivo" $alfa $beta >> Resultados/Calculo_coberturas_corregido.txt
 done

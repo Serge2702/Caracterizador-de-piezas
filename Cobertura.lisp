@@ -3,10 +3,10 @@
 (load "Caracterizador_nuevo.lisp")
 (load "Script_caracterizador_de_piezas.lisp")
 (defvar *archivo_propiedades* (nth 1 *posix-argv*))
-(defvar *ap* (nth 2 *posix-argv*))
-(defvar *bp* (nth 3 *posix-argv*))
-(defvar *bn* (nth 2 *posix-argv*))
-(defvar *an* (nth 3 *posix-argv*))
+(defvar *ap* (read-from-string (nth 2 *posix-argv*)))
+(defvar *bp* (read-from-string (nth 3 *posix-argv*)))
+(defvar *bn* (read-from-string (nth 2 *posix-argv*)))
+(defvar *an* (read-from-string (nth 3 *posix-argv*)))
 ;;;
 
 ;En este archivo se incluyen las funciones para determinar la cobertura de las
