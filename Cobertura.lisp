@@ -100,4 +100,22 @@
                   (length (nth indice grupos)) 
                   (/ (length (aref conjuntos indice)) (length (nth indice grupos)) 0.01)))))
 
-(cobertura_positivas *supervision* *archivo_propiedades*)
+(defun cobertura_positivas_csv (grupos archivo)
+  ;Determina la cobertura de las características positivas que se encuentren.
+  (let ((num_patrones)(renglon)(conjuntos (make-array (length grupos) :initial-element nil))(patrones_encontrados) (indice_grupo))
+    (with-open-file (stream archivo)
+      (setq num_patrones (read stream nil nil))
+      (read-line stream nil nil)                   ;Para saltarse la línea de comentarios
+      (loop for k from 0 below num_patrones do
+            (setq renglon (revisa_lista_tiene_positivas (read-from-string (read-line stream nil nil))))
+            (cond
+              (renglon 
+                (loop for elemento in (rest renglon) do
+                      (setq indice_grupo (second elemento))
+                      (setq patrones_encontrados (indices_patrones (nth indice_grupo grupos) (first renglon) (first elemento)))
+                      (setf (aref conjuntos indice_grupo) (union (aref conjuntos indice_grupo) patrones_encontrados)))))))
+    (loop for indice from 0 below (length conjuntos) do 
+          (format t "~S," (length (aref conjuntos indice))))
+    (format t "~%")))
+
+(cobertura_positivas_csv *supervision* *archivo_propiedades*)
