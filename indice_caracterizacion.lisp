@@ -134,4 +134,4 @@
 ;;;Esto es para calcular automáticamente el indice de caracterización en forma
 ;;;de script.
 
-(indice_de_caracterizacion (nth 1 *posix-argv*))
+(print (indice_de_caracterizacion (nth 1 *posix-argv*)))
